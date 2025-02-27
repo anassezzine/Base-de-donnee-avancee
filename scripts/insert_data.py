@@ -48,6 +48,4 @@ def insert_all_csv_data(db_path, csv_dir):
         print(f"Insertion des données dans la table '{table}' à partir de {table}.csv")
         insert_data_from_csv(db_path, table, csv_dir)
 
-if __name__ == '__main__':
-    csv_directory = os.path.join(os.path.dirname(__file__), '..', 'data', 'imdb-tiny')
-    insert_all_csv_data("data.db", csv_directory)
+    

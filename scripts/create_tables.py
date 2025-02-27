@@ -98,7 +98,7 @@ def create_tables(db_path):
             pid TEXT,
             category TEXT,
             job TEXT,
-            PRIMARY KEY (mid, ordering),
+            PRIMARY KEY (mid, ordering, pid),
             FOREIGN KEY (mid) REFERENCES movies(mid),
             FOREIGN KEY (pid) REFERENCES persons(pid)
         )
@@ -164,5 +164,3 @@ def create_tables(db_path):
 
     conn.commit()
     conn.close()
-
-create_tables('data.db')

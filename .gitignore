@@ -1,0 +1,13 @@
+# Environnement
+env
+__pycache__
+
+# Dossier bases de données MySQL et MongoDB
+tiny.db
+small.db
+medium.db
+full.db
+data.db
+
+# Sets de données
+imdb*
