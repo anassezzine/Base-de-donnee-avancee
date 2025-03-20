@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV '/home/anass/Bureau/FISA/S8/Base de donnée avancée/bda'
+set -gx VIRTUAL_ENV /home/anass/Bureau/BDA_MySQL-MongoDB-main/bda
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/home/anass/Bureau/FISA/S8/Base de donnée avancée/bda/bin/python3" "$0" "$@"
-' '''
+#!/home/anass/Bureau/BDA_MySQL-MongoDB-main/bda/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
